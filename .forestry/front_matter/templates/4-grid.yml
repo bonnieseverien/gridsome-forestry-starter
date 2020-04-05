@@ -20,5 +20,3 @@ fields:
     max: '4'
     labelField: 
   label: item
-pages:
-- projects/homepage.md
