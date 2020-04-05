@@ -8,5 +8,5 @@ fields:
   template_types:
   - 4-grid
   config:
-    min: 
-    max: 
+    min: '4'
+    max: '4'
