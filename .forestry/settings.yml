@@ -10,7 +10,7 @@ sections:
   create: documents
   match: "**/*.md"
   templates:
-  - 4-grid
+  - home
   - project
 - type: directory
   path: journal
