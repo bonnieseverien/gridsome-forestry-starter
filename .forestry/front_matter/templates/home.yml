@@ -1,4 +1,12 @@
 ---
 label: home
 hide_body: false
-fields: []
+fields:
+- name: row
+  type: blocks
+  label: row
+  template_types:
+  - 4-grid
+  config:
+    min: 
+    max: 
