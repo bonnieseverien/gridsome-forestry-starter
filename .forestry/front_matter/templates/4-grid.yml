@@ -2,15 +2,23 @@
 label: 4-grid
 hide_body: true
 fields:
-- name: image
-  type: file
+- name: item
+  type: field_group_list
+  fields:
+  - name: imag
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
   config:
-    maxSize: 250
-  label: image
-- name: title
-  type: text
-  config:
-    required: false
-  label: title
+    min: '4'
+    max: '4'
+    labelField: 
+  label: item
 pages:
 - projects/homepage.md
